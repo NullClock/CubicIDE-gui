@@ -35,4 +35,4 @@ jobs:
         target_branch: gh-pages
         verbose: true
       env:
-        GITHUB_TOKEN: ${{ secrets.D }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
