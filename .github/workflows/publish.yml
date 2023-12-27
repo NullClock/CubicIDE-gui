@@ -15,6 +15,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
+    - name: Clone Repository
+      run: |
+        git clone https://github.com/NullClock/CubicIDE-gui
     - name: Build & Set CNAME
       run: |
         cd CubicIDE-gui
